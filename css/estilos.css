@@ -12,10 +12,11 @@ header{
 }
 header .logo{
 	color: #ffffff;
-	font-size: 30px;
+	font-size: 40px;
 	float:left;
 	text-shadow: 2px 2px #02010a;
 	line-height: 100px;
+	font-weight: bold;
 }
 .wrapper{
 	width: 90%;
@@ -43,8 +44,11 @@ header nav a{
 	text-decoration: none;
 	padding: 5px 10px;
 	line-height: normal;
-	font-size: 18px;
+	font-size: 25px;
 	font-weight: bold;
+	-webkit-transition:all 500ms ease;
+	-o-transition:all 500ms ease;
+	transition: all 500ms ease;
 }
 header nav a:hover{
 	background: #f56f3a;
@@ -58,6 +62,10 @@ header nav a:hover{
     width: 70%;
     margin-top: 5%;
     margin-bottom: 2.5%;
+    box-shadow: 2px 2px 2px 2px #02010a;
+}
+#im2, #im3{
+	box-shadow: 2px 2px 2px 2px #02010a;
 }
 .caja2,.caja3{
 	display: inline-block;
@@ -70,7 +78,6 @@ header nav a:hover{
     width: 600px;
     border-radius: 10px;
     margin: 5%
-
 }
 footer{
 	height: auto;
@@ -113,4 +120,34 @@ footer div img{
 .redes p img{
 	margin-right: 10px;
 	margin-left: 10px;
+}
+#im2:hover{
+	transform: rotate(10deg);
+	box-shadow: 2px 2px 2px 2px #82c3a6;
+}
+#im3:hover{
+	transform: translate(20px,-5px);
+	box-shadow: 2px 2px 2px 2px #82c3a6;
+}
+--------------------------------------------- paisajes --------------------------------------------------
+#galeria {
+	display: flex;
+	flex-direction: column;
+}
+.bloque4 img,.bloque5 img, .bloque6 img, .bloque7 img, .bloque8 img, .bloque9 img, .bloque10 img, 
+.bloque11 img, .bloque12 img, .bloque13 img, .bloque14 img, .bloque15 img{
+	max-width: 100%;
+    height: 300px;
+    border-radius: 10px;
+    margin-right: 17px;
+    margin-left: 17px;
+	margin-bottom: 17px;
+	margin-top: 17px;
+    display: inline-block;
+	width: 450px;
+}
+.paisajess2 {
+	display: flex;
+	flex-direction: row;
+	background-color: #d5c75f;
 }
